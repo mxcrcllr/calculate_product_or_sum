@@ -11,8 +11,16 @@ def product(num1, num2):
     #Add num1 and num2 
     sum = num1 + num2
 
-#If the product is less than or equal to 1000:
-#Print multiply
+    #If the product is less than or equal to 1000:
+    if multiply <= 1000:
+        #Print multiply
+        print(multiply)
+    #Else:
+    else:
+        #Print sum
+        print(sum)
 
-#Else:
-#Print sum
+product(num1, num2)
+
+
+
