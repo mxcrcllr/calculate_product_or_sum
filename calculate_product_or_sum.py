@@ -5,22 +5,21 @@ num1 = int(input('Enter number 1: '))
 num2 = int(input('Enter number 2: '))
 
 #product(num1, num2):
-def product(num1, num2):
+def prod_or_sum(num1, num2):
     #Multiply num1 and num2 
-    multiply = num1 * num2
+    product = num1 * num2
     #Add num1 and num2 
     sum = num1 + num2
 
     #If the product is less than or equal to 1000:
-    if multiply <= 1000:
+    if product <= 1000:
         #Print multiply
-        print(multiply)
+        return product
     #Else:
     else:
         #Print sum
-        print(sum)
+        return sum
 
-product(num1, num2)
-
-
+result = prod_or_sum(num1, num2)
+print('The result is', result)
 
