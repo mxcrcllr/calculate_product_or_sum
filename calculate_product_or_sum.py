@@ -1,6 +1,8 @@
 
-#Input num1 from the user
-#Input num2 from the user
+#User inputs number 1
+num1 = int(input('Enter number 1: '))
+#User inputs number 2
+num2 = int(input('Enter number 2: '))
 
 #product(num1, num2):
 #Multiply num1 and num2 
